@@ -7,15 +7,17 @@ package tp_medev;
 
 /**
  *
- * @author victo
+<<<<<<< HEAD
+ * @author Seb
  */
-public class TP_MEDEV {
+public class Prison extends Case {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    public Prison(String nom, int numero) {
+        super(nom, numero);
     }
     
+    @Override
+    public String toString() {
+        return "Depart"; 
+    }   
 }

@@ -7,15 +7,15 @@ package tp_medev;
 
 /**
  *
- * @author victo
+ * @author Seb
  */
-public class TP_MEDEV {
+public class Gare extends Achetable {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
     
+
+    
+    public Gare(int prix, Joueur proprietaire, String nom, int numero) {
+        super(prix, proprietaire, nom, numero);
+    }
+
 }

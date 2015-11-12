@@ -7,15 +7,17 @@ package tp_medev;
 
 /**
  *
- * @author victo
+ * @author Hicham
  */
-public class TP_MEDEV {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+public class Impot extends Case {
+    
+    public Impot(String nom, int numero) {
+        super(nom, numero);
     }
     
+    
+    @Override
+    public String toString() {
+        return "Impot";
+    }
 }
